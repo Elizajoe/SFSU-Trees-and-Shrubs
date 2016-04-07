@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:focusableInTouchMode="true">
+		
+          //Title bar
+
+			<TextView
+			    android:id="@+id/title_bar_text"
+			    android:layout_width="fill_parent"
+			    android:layout_height="50dp"
+			    android:background="@drawable/navigation_bar_background"
+			    android:gravity="center"
+			    android:text="@string/title"
+			    android:textColor="#ffffff"
+			    android:textSize="16sp" >
+
+ 		</TextView>
+
+          <EditText
+              android:id="@+id/searchBox"
+              android:layout_width="fill_parent"
+              android:layout_height="40dp"
+              android:layout_below="@+id/title_bar_text"
+              android:drawableLeft="@drawable/search1_30x30"
+              android:background="#B0B0B0" 
+              android:hint="enter prefix"
+              android:textSize="12sp"                     
+              android:imeOptions="actionSearch"
+              android:singleLine="true" >
+					                            
+          </EditText>
+
+          <ListView android:id="@android:id/list"
+              		android:layout_below="@+id/searchBox"
+					android:layout_height="wrap_content"                    
+                    android:layout_width="match_parent"
+                    android:focusable="true"
+                    android:descendantFocusability="beforeDescendants">
+		  </ListView>
+
+</RelativeLayout>

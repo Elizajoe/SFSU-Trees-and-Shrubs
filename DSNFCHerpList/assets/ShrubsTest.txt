@@ -1,0 +1,45 @@
+taxon	common	lifeform	status	family	bloom
+Anthriscus caucalis	Bur chevril	 Annual herb, Vine 	non-native	APIACEAE	5-Mar
+Aristolochia californica	California pipevine	 Vine, Shrub 	native	ARISTOLOCHIACEAE	4-Jan
+Asparagus asparagoides	African asparagus fern	Vine	invasive non-native	ASPARAGACEAE	4-Dec
+Calystegia silvatica ssp disjuncta	Shortstalk false bindweed	 Vine, Shrub 	non-native	CONVOLVULACEAE	9-Jun
+Clematis lasiantha	Pipestem	 Perennial herb, Vine 	native	RANUNCULACEAE	7-Mar
+Clematis ligusticifolia	Creek clematis	 Perennial herb, Vine 	native	RANUNCULACEAE	8-Jun
+Convolvulus arvensis	Field bindweed	 Perennial herb, Vine 	invasive non-native	CONVOLVULACEAE	9-Apr
+Cuscuta californica	California dodder	 Annual herb, Vine (parasitic) 	native	CONVOLVULACEAE	8-Feb
+Cuscuta californica var californica	Short flowered dodder	 Annual herb, Vine (parasitic) 	native	CONVOLVULACEAE	8-Feb
+Cuscuta campestris	Field dodder	 Annual herb, Vine (parasitic) 	native	CONVOLVULACEAE	11-May
+Cuscuta pacifica var pacifica	Dodder	 Annual herb, Vine (parasitic) 	native	CONVOLVULACEAE	10-Jul
+Cuscuta salina	Saltmarsh dodder	 Annual herb, Vine (parasitic) 	native	CONVOLVULACEAE	10-May
+Cuscuta subinclusa	Canyon dodder	 Annual herb, Vine (parasitic) 	native	CONVOLVULACEAE	10-Mar
+Dichondra donelliana	Dichondra	 Perennial herb, Vine 	native	CONVOLVULACEAE	3-Jan
+Galium porrigens	Climbing bedstraw	 Vine, Shrub 	native	RUBIACEAE	4-Feb
+Galium porrigens var porrigens	Graceful bedstraw	 Vine, Shrub 	native	RUBIACEAE	4-Mar
+Hedera canariensis	Canary ivy	Vine	invasive non-native	ARALIACEAE	11-Aug
+Hedera helix	English ivy	 Vine, Shrub 	invasive non-native	ARALIACEAE	6-May
+Helichrysum petiolare	Licorice plant	 Shrub, Vine 	invasive non-native	ASTERACEAE	8-Jul
+Lonicera hispidula	Pink honeysuckle	 Vine, Shrub 	native	CAPRIFOLIACEAE	7-Apr
+Lonicera japonica	Japanese honeysuckle	 Vine, Shrub 	non-native	CAPRIFOLIACEAE	6-May
+Marah fabacea	California man-root	 Perennial herb, Vine 	native	CUCURBITACEAE	4-Mar
+Marah oregana	Coast man-root	 Perennial herb, Vine 	native	CUCURBITACEAE	6-Mar
+Muehlenbeckia complexa	Mattress vine	Vine	non-native	POLYGONACEAE	9-Jul
+Rubus parviflorus	Thimbleberry	 Vine, Shrub 	native	ROSACEAE	5-Mar
+Rubus ulmifolius	Elmleaf blackberry	 Vine, Shrub 	non-native	ROSACEAE	8-Apr
+Rubus ulmifolius var anoplothyrsus	Elm leaf bramble	 Vine, Shrub 	non-native	ROSACEAE	7-May
+Rubus ursinus	California blackberry	 Vine, Shrub 	native	ROSACEAE	5-Feb
+Scandix pecten-veneris	Shepherd's needle	 Annual herb, Vine 	non-native	APIACEAE	5-Apr
+Toxicodendron diversilobum	Poison oak	 Vine, Shrub 	native	ANACARDIACEAE	6-Mar
+Tropaeolum majus	Garden nasturtium	 Annual herb, Vine 	invasive non-native	TROPAEOLACEAE	6-Mar
+Vicia americana	American vetch	 Perennial herb, Vine 	native	FABACEAE	6-May
+Vicia americana ssp americana	American vetch	 Perennial herb, Vine 	native	FABACEAE	6-May
+Vicia benghalensis	Purple vetch	 Annual herb, Vine 	non-native	FABACEAE	6-Mar
+Vicia hassei	Hasse's vetch	Vine	native	FABACEAE	5-Mar
+Vicia hirsuta	Hairy vetch	 Annual herb, Vine 	non-native	FABACEAE	7-Apr
+Vicia sativa	Spring vetch	 Annual herb, Vine 	non-native	FABACEAE	6-Feb
+Vicia sativa ssp nigra	Smaller common vetch	 Annual herb, Vine 	non-native	FABACEAE	3-Feb
+Vicia sativa ssp sativa	Common vetch	 Annual herb, Vine 	non-native	FABACEAE	3-Feb
+Vicia villosa	Hairy vetch	 Annual herb, Vine 	invasive non-native	FABACEAE	4-Feb
+Vicia villosa ssp varia	Smooth vetch	 Annual herb, Vine 	non-native	FABACEAE	7-Mar
+Vicia villosa ssp villosa	Hairy vetch	 Annual herb, Vine 	invasive non-native	FABACEAE	4-Feb
+Vitis californica	California wild grape	 Vine, Shrub 	native	VITACEAE	6-May
+Whipplea modesta	Modesty	 Vine, Shrub 	native	HYDRANGEACEAE	5-Mar

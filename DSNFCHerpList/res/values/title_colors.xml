@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>   
+    <color name="titlebackgroundcolor">#ff00ff00</color>
+    <color name="titletextcolor">#ff00ffff</color>
+    <color name="textcolor">#ff0000ff</color>
+    <color name="buttoncolor">#ff0000ff</color>
+    <color name="white">#ffffffff</color>
+    <color name="lightgreen">#ff92cd00</color>
+    <color name="green">#ff33e5b5</color>
+    <color name ="darkgreen">#ff9ab44a</color>
+    <color name ="yellow">#ffffff00</color>
+    <color name ="skyblue">#ff87ceeb</color>
+    <color name ="aliceblue">#ff9BDDFF</color>
+</resources>

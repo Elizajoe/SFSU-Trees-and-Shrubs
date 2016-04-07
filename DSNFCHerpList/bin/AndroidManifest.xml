@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.herps"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk 
+        android:minSdkVersion="8" 
+        />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    
+    
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light" 
+        android:largeHeap="true">
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity android:name="com.herps.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.herps.TnsTabList" >
+            <intent-filter>
+                <action android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.herps.ObserverAppV2" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.Species"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.OrganismDetails"
+            android:label="Details" >
+            <intent-filter>
+                <action android:name="com.herps.OrganismDetails" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.SpeciesDetails"
+            android:configChanges="keyboardHidden"
+            android:label="SpeciesDetails" >
+            <intent-filter>
+                <action android:name="com.herps.species.SpeciesDetails" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.CommonActivityGroup"
+            android:label="Group" >
+            <intent-filter>
+                <action android:name="com.herps.HerpsActivityGroup" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.TaxActivityGroup"
+            android:configChanges="keyboardHidden"
+            android:label="Species" >
+            <intent-filter>
+                <action android:name="com.herps.SpeciesActivityGroup" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.ObservationActivityGroup"
+            android:label="ObservationGroup" >
+            <intent-filter>
+                <action android:name="com.herps.ObservationActivityGroup" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.About"
+            android:label="About" >
+            <intent-filter>
+                <action android:name="com.herps.About" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.ObserveDetails"
+            android:label="ObserveDetails"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.herps.ObserveDetails" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.SpeciesObserve"
+            android:label="SpeciesObserveDetails"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.herps.species.SpeciesObserve" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.FinalObserveDetails"
+            android:label="FinalObserveDetails" >
+            <intent-filter>
+                <action android:name="com.herps.FinalObserveDetails" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.FinalSpeciesObserveDetails"
+            android:label="FinalSpeciesObserveDetails" >
+            <intent-filter>
+                <action android:name="com.herps.FinalSpeciesObserveDetails" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.SafeCamera"
+            android:label="SafeCamera" >
+            <intent-filter>
+                <action android:name="com.herps.SafeCamera" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.CameraActivity"
+            android:label="CameraActivity" >
+            <intent-filter>
+                <action android:name="com.herps.CameraActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.HerpsCameraActivity"
+            android:label="HerpsCameraActivity" >
+            <intent-filter>
+                <action android:name="com.herps.HerpsCameraActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.SpeciesCameraActivity"
+            android:label="SpeciesCameraActivity" >
+            <intent-filter>
+                <action android:name="com.herps.SpeciesCameraActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.ObservationListActivity"
+            android:label="ObservationListActivity" >
+            <intent-filter>
+                <action android:name="com.herps.ObservationListActivity" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.DatabaseItemDetails"
+            android:label="DatabaseItemDetails" >
+            <intent-filter>
+                <action android:name="com.herps.DatabaseItemDetails" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.herps.ConfigViewActivity"
+            android:label="@string/title_activity_config_view" >
+        </activity>
+        <activity
+            android:name="com.herps.ConfigDownloader"
+            android:label="@string/title_activity_config_downloader" >
+        </activity>
+        <activity
+            android:name="com.herps.ConfigSelection"
+            android:label="@string/title_activity_config_selection" >
+        </activity>
+        
+        
+     
+
+        <activity
+            android:name="com.herps.PhotoSet"
+            android:label="@string/title_activity_photo_set" >
+        </activity>
+        <activity
+            android:name="com.herps.PhotoDownload"
+            android:label="@string/title_activity_photo_download" >
+        </activity>
+        
+        <activity
+            android:name="com.herps.Gmap"
+            android:label="@string/title_activity_gmap" 
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <uses-library android:name="com.google.android.maps" />
+        <meta-data
+    	android:name="com.google.android.maps.v3.API_KEY"
+    	android:value="AIzaSyDbb_jD4216cgr8PP6Z-Dt_HLXbl-sW10o"/>
+        
+        <meta-data android:name="com.google.android.gms.version"
+           android:value="@integer/google_play_services_version" />
+        
+        
+    </application>
+
+</manifest>
